@@ -1,0 +1,49 @@
+body {
+  background-color: azure;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: azure;
+}
+
+.stop-watch {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  margin-block: 8.7rem;
+}
+
+.timer {
+  border: 1px solid gray;
+  padding: 3rem;
+  margin: auto;
+  color: white;
+  background-color: black;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  font-size: 3rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+button {
+  border: none;
+  background-color: red;
+  color: azure;
+  padding: 1.3rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  cursor: pointer;
+}
